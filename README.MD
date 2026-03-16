@@ -1,9 +1,5 @@
-# Volleyball - Proiect Web Design si Dezvoltare Frontend
+# Forest Intelligence Explorer - Monitoring Tool
 
-Acesta este un proiect educational si informativ dedicat voleiului, creat pentru a demonstra competente de Web Design si Dezvoltare Frontend. Site ul ofera o experienta cursiva, prezentand istoria si regulile jocului, impreuna cu magia acestuia.
+Aplicatie Web interactiva pentru monitorizarea transporturilor de material lemnos din Romania, utilizand date in timp real din ZebraHack API si integrare cu OpenStreetMap pentru geocodare. Pentru a rula aplicatia local, aveti nevoie de: Un browser web actualizat, o conexiune la internet, VS Code cu extensia Live Server instalata.
 
-Are o structura sistematica, fiind organiza in fisiere bine stabilite, tabele si sectiuni pentru fiecare optiune a site-ului, fiind foarte lizibil. Avand o navigare completa, implementand un meniu de tip "hamburger" pentru telefoane, optimizat pentru orice dimensiune avand: Viewport Meta Tag, Meniu Adaptiv, Media Queries.
-
-Proiectul pune accent pe estetica si interactivitate: avand sistem de grid si flexbox pentru un layout aliniat perfect si adaptabil, Hover-Effects dezvaluind detalii suplimentare la trecerea cursorului, arhitectura CSS facilitand mentenanta codului.
-
-Autor: Dumitru Gabriel Justin(322AB)
+Autor: Dumitru Gabriel Jusitn(322AB)
