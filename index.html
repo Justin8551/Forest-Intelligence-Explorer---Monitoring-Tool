@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ZebraHack3.0</title>
+    <link rel="stylesheet" href="styles/style.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"> 
+</head>
+<body>
+    <header>
+        <h1>Statisticile defrisarii padurilor.</h1>
+        
+        <div style="max-width: 800px; margin: 0 auto; text-align: left; background: #f3f4f6; padding: 15px; border-radius: 8px; font-size: 0.9rem;">
+            <p><strong>Scop: </strong>
+                <ul>
+                    <li>Aceasta aplicatie ajuta jurnalistii și activistii să identifice rapid zonele cu activitate intensa de <strong> exploatare forestiera.</strong></li>
+                    <li>Fiecare pin albastru reprezinta compania, volumul transportat(la momentul colectarii datelor) si localitatea/judetul de provenienta. </li>
+                </ul>
+            </p>
+            
+            <p><strong>Integrare API:</strong>
+                <ul>
+                    <li><strong>ZebraHack API:</strong> Folosit pentru a colecta informatii despre pozitia GPS si cele mai transportate specii de lemn in m<sup>3</sup>.</li>
+                    <li><strong>OpenStreetMap Nominatim:</strong> Folosit pentru a transforma coordonatele in nume de localitati/judete pentru o buna plasare geografica.</li>
+                </ul>
+            </p>
+            
+            <p>Aplicatia semnaleaza unde este activitate, <strong>nu</strong> dovedeste nimic concret. Pentru rapoarte oficiale va rog sa consultati statiile de transport.</p>
+        </div>
+    </header>
+    <main>
+        <button type="button" class="health-btn" id="health-btn">Incarca harta si datele.</button>
+        <div id="health-status" class="status">Se asteapta actiunea...</div>
+        
+        <button type="button" class="health-btn" id="print-btn" style="background: #203b66; display:none; margin-left: 10px; color: white;">Salveaza raport.</button>
+
+        <div id="map"></div>
+        <div id="stats-container" style="display:none; margin-top: 20px; text-align: left; background: #dce1a5; padding: 15px; border-radius: 8px;">
+            <h3>Statistici generale:</h3>
+            <div id="stats-content">Se calculeaza...</div>
+        </div>
+    </main>
+    <footer><strong>Dumitru Gabriel Justin - 322AB</strong></footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <script src="scripts/zebrahack_client.js"></script> 
+    
+    <script src="scripts/index.js"></script>
+</body>
+</html>
